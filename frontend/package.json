@@ -1,0 +1,39 @@
+{
+    "name": "wenprise-frontend-tool",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "browser-sync": "^2.27.7",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "cssnano": "^5.0.15",
+        "fork-ts-checker-webpack-plugin": "^6.5.0",
+        "laravel-mix": "^6.0.39",
+        "laravel-mix-copy-watched": "^2.3.1",
+        "laravel-mix-tailwind": "^0.1.2",
+        "laravel-mix-versionhash": "^2.0.1",
+        "postcss": "^8.4.5",
+        "postcss-loader": "^6.2.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.48.0",
+        "sass-loader": "^12.4.0",
+        "script-loader": "^0.7.2",
+        "webpack-livereload-plugin": "1"
+    },
+    "scripts": {
+        "build": "mix build",
+        "prod": "mix build --production",
+        "dev": "mix watch"
+    },
+    "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.0",
+        "@tailwindcss/line-clamp": "^0.3.1",
+        "@tailwindcss/typography": "^0.5.2",
+        "@wenprise/purgecss-with-wordpress": "^1.0.4",
+        "mix-white-sass-icons": "^0.2.0",
+        "smartmenus": "^1.1.1",
+        "tabslet": "^1.7.3",
+        "tailwindcss": "^3.0.13",
+        "theia-sticky-sidebar": "^1.7.0"
+    }
+}

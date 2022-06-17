@@ -1,0 +1,335 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2022-05-18 22:35+0800\n"
+"PO-Revision-Date: 2022-05-18 22:36+0800\n"
+"Last-Translator: Amos Lee <iwillhappy1314@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: ;_e;__;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: frontend\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "抱歉！此页面不存在。"
+
+#: 404.php:29
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "这里好像什么都没有，试试搜索功能吧"
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "&ldquo;%1$s&rdquo;上有 1 个评论"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "跳至内容"
+
+#: header.php:54
+msgid "Menu"
+msgstr "菜单"
+
+#: includes/customizer.php:27
+msgid "Colors and Background"
+msgstr "颜色和背景"
+
+#: includes/fields.php:33
+msgid "Archive Settings"
+msgstr "存档设置"
+
+#: includes/fields.php:36 includes/fields.php:52
+msgid "Cover image"
+msgstr "封面图像"
+
+#: includes/fields.php:37
+msgid "Cover text"
+msgstr "封面文字"
+
+#: includes/fields.php:38
+msgid "Archive Title"
+msgstr "存档标题"
+
+#: includes/fields.php:39
+msgid "Archive Description"
+msgstr "存档描述"
+
+#: includes/fields.php:47
+msgid "Category Settings"
+msgstr "分类设置"
+
+#: includes/fields.php:53
+msgid "Banner Text"
+msgstr "横幅文本"
+
+#: includes/fields.php:54
+msgid "Posts Per Page"
+msgstr "每页文章数"
+
+#: includes/fields.php:60
+msgid "Page Settings"
+msgstr "页面设置"
+
+#: includes/fields.php:65
+msgid "Page Layouts"
+msgstr "页面布局"
+
+#: includes/fields.php:76
+msgid "Case Data"
+msgstr "案例数据"
+
+#: includes/fields.php:81
+msgid "Demo url"
+msgstr "演示网址"
+
+#: includes/fields.php:88
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: includes/fields.php:90
+msgid "General Options"
+msgstr "常规选项"
+
+#: includes/fields.php:91
+msgid "Clean up useless menus for normal user"
+msgstr "清理后台菜单"
+
+#: includes/fields.php:92
+msgid "Deny modify files in backend"
+msgstr "禁止在后台修改文件"
+
+#: includes/fields.php:94
+msgid "Footer Options"
+msgstr "页脚选项"
+
+#: includes/fields.php:95
+msgid "Beian number"
+msgstr "备案号"
+
+#: includes/fields.php:96
+msgid "Copyright text"
+msgstr "版权内容"
+
+#: includes/fields.php:98
+msgid "Code Option"
+msgstr "代码选项"
+
+#: includes/fields.php:99
+msgid "Code before </head>"
+msgstr "</head> 前代码"
+
+#: includes/fields.php:100
+msgid "Code before </body>"
+msgstr "</body> 前代码"
+
+#: includes/setup.php:50
+msgid "Primary"
+msgstr "主要"
+
+#: includes/setup.php:97
+msgid "Video"
+msgstr "视频"
+
+#: includes/setup.php:98
+msgid "Video Tag"
+msgstr "视频标签"
+
+#: includes/setup.php:116
+msgid "Shortcode"
+msgstr "短代码"
+
+#: includes/setup.php:138
+msgid "Primary Widgets Area"
+msgstr "主要小工具区域"
+
+#: includes/setup.php:140 includes/setup.php:149 includes/setup.php:158
+#: includes/woocommerce.php:176 includes/woocommerce.php:186
+#: includes/woocommerce.php:196 includes/woocommerce.php:206
+msgid "Add widgets here."
+msgstr "在这里添加小工具。"
+
+#: includes/setup.php:147
+msgid "Top bar Widgets"
+msgstr "顶部小工具区域"
+
+#: includes/setup.php:156
+msgid "Footer Widgets Area"
+msgstr "页脚小工具区域"
+
+#: includes/setup.php:179
+msgid "_s Addon"
+msgstr ""
+
+#: includes/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: includes/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr "发表在 %1$s"
+
+#: includes/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr "标签 %1$s"
+
+#: includes/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">在 %s </span>发表评论"
+
+#: includes/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "编辑<span class=\"screen-reader-text\">%s</span>"
+
+#: includes/woocommerce.php:174
+msgid "WooCommerce Widget Area"
+msgstr "WooCommerce小工具区域"
+
+#: includes/woocommerce.php:184
+msgid "Single Product Custom area"
+msgstr "产品摘要小工具区域"
+
+#: includes/woocommerce.php:194
+msgid "Cart Widgets Area"
+msgstr "购物车小工具区域"
+
+#: includes/woocommerce.php:204
+msgid "Checkout Widgets Area"
+msgstr "结账小工具区域"
+
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr "搜索结果: %s"
+
+#: src/Elementor/Widgets/ServiceWidgets.php:37
+msgid "Widget Title"
+msgstr "小工具标题"
+
+#: src/Elementor/Widgets/ServiceWidgets.php:84
+msgid "Content"
+msgstr "内容"
+
+#: src/Elementor/Widgets/ServiceWidgets.php:92
+msgid "URL to embed"
+msgstr "要嵌入的 URL"
+
+#: src/Elementor/Widgets/ServiceWidgets.php:95
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: templates/content-none.php:22
+msgid "Nothing Found"
+msgstr "无法找到任何内容"
+
+#: templates/content-none.php:31
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发表第一篇文章了吗？<a href=\"%1$s\">点击这里开始</a>。"
+
+#: templates/content-none.php:45
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: templates/content-none.php:55
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "看来我们不能找到你要找的东西。请搜索一下试试吧。"
+
+#: woocommerce/cart/cart.php:30
+msgid "Product"
+msgstr "产品"
+
+#: woocommerce/cart/cart.php:31
+msgid "Price"
+msgstr "价格"
+
+#: woocommerce/cart/cart.php:32
+msgid "Quantity"
+msgstr "数量"
+
+#: woocommerce/cart/cart.php:33
+msgid "Subtotal"
+msgstr "小计"
+
+#: woocommerce/cart/cart.php:56
+msgid "Remove this item"
+msgstr "删除此项"
+
+#: woocommerce/cart/cart.php:91 woocommerce/cart/cart.php:112
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:172
+msgid "Coupon:"
+msgstr "优惠券："
+
+#: woocommerce/cart/cart.php:177
+msgid "Update cart"
+msgstr "更新购物车"
+
+#~ msgid "Menu Type"
+#~ msgstr "菜单类型"
+
+#~ msgid "Normal"
+#~ msgstr "常规"
+
+#~ msgid "Render shortcode content"
+#~ msgstr "显示短代码"
+
+#~ msgid "Below Content Widgets  Area"
+#~ msgstr "内容底部小工具区域"
+
+#~ msgid "Shopping Cart"
+#~ msgstr "购物车"
+
+#~ msgid "Shipping and Checkout"
+#~ msgstr "运费和结算"
+
+#~ msgid "Confirmation"
+#~ msgstr "订单确认"
+
+#~ msgid "Colors"
+#~ msgstr "颜色"
+
+#~ msgid "WooCommerce Color Schema"
+#~ msgstr "WooCommerce 配色方案"
+
+#~ msgid "Single Product Page Settings"
+#~ msgstr "产品详情页面设置"
+
+#~ msgid "Primary color"
+#~ msgstr "主要颜色"
+
+#~ msgid "Show Sidebar"
+#~ msgstr "显示侧边栏"
+
+#~ msgid "Columns of Gallery thumbnail"
+#~ msgstr "相册缩略图每行显示的图片数量"
+
+#~ msgid "Number of Related Products"
+#~ msgstr "显示的相关产品数量"
