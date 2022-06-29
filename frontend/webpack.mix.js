@@ -8,8 +8,12 @@ require('mix-white-sass-icons');
 mix.setPublicPath('./');
 
 mix.sass('assets/styles/main.scss', 'dist/styles').
-    tailwind();
-
+    tailwind().
+    options({
+        postCss: [
+            require('css-mqpacker'),
+        ],
+    });
 
 mix.js('assets/scripts/main.js', 'dist/scripts');
 
