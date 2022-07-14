@@ -21,4 +21,5 @@ add_action('wp_enqueue_scripts', function ()
 add_action('after_setup_theme', function ()
 {
     \WenpriseContentTypes\ContentType::register('project', 'Project', ['title', 'thumbnail'], true);
+    \WenpriseContentTypes\Taxonomy::register('project_cat', 'project', 'Project Category', true);
 });

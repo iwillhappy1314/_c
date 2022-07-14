@@ -1,0 +1,53 @@
+.nav-ul .sub-menu{
+    li{
+        &>a{
+            @apply text-base px-5 py-2;
+        }
+        &:not(:last-child){
+            border-bottom: 1px solid #333
+        }
+    }
+}
+
+
+.menu-item-nav-search {
+    display: flex;
+    align-items: center;
+
+    &.floating {
+        //width: 1px;
+        transition: width .2s;
+
+        .nv-search {
+            order: 2;
+        }
+
+        .nv-nav-search {
+            position: static;
+            display: none;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        &.active {
+            width: 300px;
+
+            .nv-nav-search {
+                display: flex;
+                position: absolute;
+                right: 0;
+                top: -12px;
+                box-shadow: none;
+            }
+        }
+
+    }
+}
+
+body.admin-bar .floating .nv-nav-search {
+    margin-top: 0;
+}
+
+.menu-item-nav-search.floating .close-responsive-search {
+    --primarybtnpadding: 0 12px;
+}
