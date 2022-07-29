@@ -9,6 +9,7 @@ module.exports = {
         '../src/**/*.php',
         '../templates/**/*.php',
         '../woocommerce/**/*.php',
+        '../wenprise/**/*.php',
     ],
     safelist: purgecssWhiteList.whitelist.concat([
         'ln-letters',
