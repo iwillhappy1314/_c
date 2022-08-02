@@ -18,7 +18,17 @@
         "sass": "^1.48.0",
         "sass-loader": "^12.4.0",
         "script-loader": "^0.7.2",
-        "webpack-livereload-plugin": "1"
+        "webpack-livereload-plugin": "1",
+        "typescript": ">= 2.7",
+        "webpack": "^5.0.0",
+        "collect.js": "^4.28.6",
+        "tailwindcss": "^3.0.13",
+        "@tailwindcss/aspect-ratio": "^0.4.0",
+        "@tailwindcss/line-clamp": "^0.3.1",
+        "@tailwindcss/typography": "^0.5.2",
+        "@wenprise/purgecss-with-wordpress": "^1.0.4",
+        "css-mqpacker": "^7.0.0",
+        "mix-white-sass-icons": "^0.2.0"
     },
     "scripts": {
         "build": "mix build",
@@ -26,15 +36,8 @@
         "dev": "mix watch"
     },
     "dependencies": {
-        "@tailwindcss/aspect-ratio": "^0.4.0",
-        "@tailwindcss/line-clamp": "^0.3.1",
-        "@tailwindcss/typography": "^0.5.2",
-        "@wenprise/purgecss-with-wordpress": "^1.0.4",
-        "css-mqpacker": "^7.0.0",
-        "mix-white-sass-icons": "^0.2.0",
         "smartmenus": "^1.1.1",
         "tabslet": "^1.7.3",
-        "tailwindcss": "^3.0.13",
         "theia-sticky-sidebar": "^1.7.0"
     }
 }
