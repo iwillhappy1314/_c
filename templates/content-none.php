@@ -19,7 +19,7 @@
         </div>
 
         <header class="rs-empty__title">
-            <?php esc_html_e('Nothing Found', '_s'); ?>
+            <?php esc_html_e('Nothing Found', 'wenprise-content-components'); ?>
         </header>
 
         <?php
@@ -28,7 +28,7 @@
             printf(
                 '<p class="rs-empty__subtitle">' . wp_kses(
                 /* translators: 1: link to WP admin new post page. */
-                    __('Ready to publish your first post? <a href="%1$s">Get started here</a>.', '_s'),
+                    __('Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'wenprise-content-components'),
                     [
                         'a' => [
                             'href' => [],
@@ -42,7 +42,7 @@
         <?php elseif (is_search()) : ?>
 
             <p class="rs-empty__subtitle">
-                <?php esc_html_e('Sorry, but nothing matched your search terms. Please try again with some different keywords.', '_s'); ?>
+                <?php esc_html_e('Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'wenprise-content-components'); ?>
             </p>
 
             <div class="rs-empty__action input-group input-inline">
@@ -52,7 +52,7 @@
         <?php else : ?>
 
             <p class="rs-empty__subtitle">
-                <?php esc_html_e('It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', '_s'); ?>
+                <?php esc_html_e('It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'wenprise-content-components'); ?>
             </p>
 
             <div class="rs-empty__action input-group input-inline">
