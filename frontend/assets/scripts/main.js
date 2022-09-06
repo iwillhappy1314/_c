@@ -200,7 +200,7 @@ require('script-loader!./plugins/lazyYT');
 
 
     spaceName.initIsotope = function(){
-        if ($(".js-gallery-items").length > 0) {
+        if ($(".rs-gallery-items").length > 0) {
 
             var jQuerygrid = $(".gallery-items").isotope({
                 singleMode: true,
@@ -236,7 +236,7 @@ require('script-loader!./plugins/lazyYT');
      */
     spaceName.stickySidebar = function() {
         if ($(document).width() > 1024 && $.isFunction($.fn.theiaStickySidebar)) {
-            $('.js-sticky-left, .js-sticky-right').theiaStickySidebar({
+            $('.rs-sticky-left, .rs-sticky-right').theiaStickySidebar({
                 additionalMarginTop: 32,
             });
         }
@@ -298,7 +298,7 @@ require('script-loader!./plugins/lazyYT');
     spaceName.lazyYoutube = function() {
 
         if ($.isFunction($.fn.lazyYT)) {
-            $('.js-lazyYT').lazyYT({
+            $('.rs-lazyYT').lazyYT({
                 youtube_parameters: 'rel=0',
                 loading_text      : 'Loading...',
                 display_title     : false,
