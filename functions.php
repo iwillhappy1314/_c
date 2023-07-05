@@ -29,3 +29,13 @@ add_action('wp_enqueue_scripts', function () {
 //     \WenpriseContentTypes\ContentType::register('project', 'Project', ['title', 'thumbnail'], true);
 //     \WenpriseContentTypes\Taxonomy::register('project_cat', 'project', 'Project Category', true);
 // });
+
+
+/**
+ * 设置主题更新
+ */
+$theme_update_checker = \Puc_v4_Factory::buildUpdateChecker(
+    'https://api.wpcio.com/api/theme/info/_c',
+    get_parent_theme_file_path('functions.php'),
+    '_c'
+);
