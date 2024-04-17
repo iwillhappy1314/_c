@@ -9,3 +9,4 @@
  */
 require_once(get_theme_file_path('vendor/autoload.php'));
 require_once(get_theme_file_path('includes/setup.php'));
+require_once(get_theme_file_path('includes/helpers.php'));
