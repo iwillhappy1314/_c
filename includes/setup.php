@@ -16,7 +16,7 @@ add_action('wp_enqueue_scripts', function () {
 }, 999);
 
 
-// add_action('after_setup_theme', function ()
+// add_action('init', function ()
 // {
 //     \WenpriseContentTypes\ContentType::register('project', 'Project', ['title', 'thumbnail'], true);
 //     \WenpriseContentTypes\Taxonomy::register('project_cat', 'project', 'Project Category', true);
