@@ -16,11 +16,11 @@ add_action('wp_enqueue_scripts', function () {
 }, 999);
 
 
-// add_action('init', function ()
-// {
-//     \WenpriseContentTypes\ContentType::register('project', 'Project', ['title', 'thumbnail'], true);
-//     \WenpriseContentTypes\Taxonomy::register('project_cat', 'project', 'Project Category', true);
-// });
+add_action('init', function ()
+{
+    \WenpriseContentTypes\ContentType::register(['item', 'product'], 'Project', ['title', 'thumbnail'], true);
+    \WenpriseContentTypes\Taxonomy::register('catalog', 'catalog', 'Project Category', true);
+});
 
 
 /**
