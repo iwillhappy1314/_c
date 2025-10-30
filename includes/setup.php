@@ -18,8 +18,8 @@ add_action('wp_enqueue_scripts', function () {
 
 add_action('init', function ()
 {
-    \WenpriseContentTypes\ContentType::register(['item', 'product'], 'Project', ['title', 'thumbnail'], true);
-    \WenpriseContentTypes\Taxonomy::register('catalog', 'catalog', 'Project Category', true);
+    \WenpriseContentTypes\ContentType::register(['item', 'product'], 'Products', ['title', 'thumbnail'], true);
+    \WenpriseContentTypes\Taxonomy::register('catalog', 'catalog', 'Product Category', true);
 });
 
 
