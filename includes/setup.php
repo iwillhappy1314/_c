@@ -31,14 +31,3 @@ $theme_update_checker = PucFactory::buildUpdateChecker(
     get_theme_file_path('functions.php'),
     '_c'
 );
-
-
-add_filter('kadence_customizer_post_type_ignore_array', function ($ignore_post_types)
-{
-    // 没有启用 WooCommerce 时，取消忽略 product 文章类型，因为其他插件或主题也可能注册这个文章类型
-    if(!function_exists('wc_get_product')){
-        unset($ignore_post_types['product']);
-    }
-
-    return $ignore_post_types;
-});
