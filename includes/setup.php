@@ -18,7 +18,7 @@ add_action('wp_enqueue_scripts', function () {
 
 add_action('init', function ()
 {
-    \WenpriseContentTypes\ContentType::register(['item', 'product'], 'Products', ['title', 'editor', 'thumbnail'], true);
+    \WenpriseContentTypes\ContentType::register(['item', 'product'], 'Products', ['title', 'editor', 'thumbnail'], true, false, 'dashicons-products');
     \WenpriseContentTypes\Taxonomy::register('catalog', 'item', 'Product Category', true);
 });
 
